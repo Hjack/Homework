@@ -1,0 +1,48 @@
+My favorite color is blue.
+
+I am 1271808000 seconds old.  I am 40 yrs and 4 months old.  I am 14,720 days old.  There are 86,400 seconds in a day (60x60x24) so I multiplied this by the total number of days old I am.
+
+A string is a sequence of characters.  Strings are found in quotes when assigned to a variable.
+
+Double quotes allow you to use string interpolation.  Single quotes do not allow you to use string interpolation.
+
+Here's one way to use a quote mark inside of a string...
+puts 'What\'s Up?'
+
+A variable is a character (or set of characters) that points to (or holds) a value.
+
+Here is an example of interpolation...
+name = "Chuck"
+puts "Hello #{name}!!"
+
+Here is an example of concatenation...
+name = "Chuck"
+slogan = "likes glitter."
+puts name + " " + slogan
+
+to_s and to_i are methods that convert objects to strings and integers respectively.  They are useful when needing to concatenate a string with an integer.  Ruby will not allow you to concatenate a string with a integer so the integer will need to be converted to a string.
+
+*Even*
+
+You call a method on a variable by listing the variable followed by a "." and the name of the method. Ex. name.length
+
+To generate a random number between 1 and 20 use rand(1..20).
+
+To define a method...
+def greeter name
+  print "Hello ", name
+  end
+
+To define a method with 2 variables...
+def addition(a,b)
+  return a + b
+  end
+
+If the method needs 2 arguments and you post 1, you will get an "Argument Error" message.
+
+Yes, you can use a variable created outside a function can be used inside of a function.  It isn't a good idea and can cause errors.
+
+If you don't explicitly return a value from a function, "nil" is returned.
+
+
+
