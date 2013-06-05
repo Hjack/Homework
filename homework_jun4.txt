@@ -1,0 +1,13 @@
+Recursion is a method that calls itself.
+
+When learning recursion, the style of program used is factorals.
+
+To direct the output of a program to a file, add name of file.rb > filename.txt  from the command line when you run the program.
+
+You use File.open to open a file.
+
+Interpolation "#{variable}"
+
+YAML="YAML Ain't Markup Language"
+
+To covert object to YAML .to_yaml
