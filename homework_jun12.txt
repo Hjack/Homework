@@ -1,0 +1,16 @@
+Wednesday June 12
+Hakimu Jackson
+
+To add a new line to a string put the \n character at the end of the string (prior to the end quote).
+
+Double quotes allow you to do more interpolation (i.e "#{variable_name} is happy today.")
+
+"I like to eat pie".sub('pie','pizza')
+
+gsub! warns you that the method may modify the string.
+
+.sqeeze could be useful for removing and replacing characters.
+.bytesize is interesting and could be very useful
+.clear (makes strings empty) could be very helpful
+.delete (returns a copy of the string with the characters at the intersection of the arguments deleted)
+.replace (replaces content with corresponding data.)
