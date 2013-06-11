@@ -1,0 +1,25 @@
+Tue 6/11 Homework
+Hakimu Jackson
+
+The "unless" statement can be used to execute conditions that are false.
+
+The "negative dopplenganger" for while is is "until".
+
+To help reduce clutter, "modifier forms" are used to collapse the line by putting the confition statement at the end.
+
+The case statement returns what is in the "when" or "else" clauses.  Or it will return nil if there's not match cluase that matches and and else statement.
+
+false & Nil evaluate to false in an if statement.
+
+The ?: operator acts as a compact if statement.
+||= is used to express the expressions new value should be set to the old value unless that is nil.
+
+The fastest way to create an array is to use %{what ever is in the array}.
+
+hash = {:symbol => 'value'} or hash = {symbol: 'value'}/
+
+*=splat
+
+Both each and map iterate.  However map can make a new array from what it iterates over.
+
+The ! method can change an array.
