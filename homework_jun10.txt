@@ -1,0 +1,20 @@
+Mon 6/10 Homework
+Hakimu Jackson
+
+It is acceptable to use CamelCase when naming classes.
+
+You typically use do...end instead of {...} when constructing iterators that span multiple lines.
+
+Assert checks to see if the value of something is true.  Assert_equal checks to see is something is equal to someting else.
+
+We put the code that needs to be run before the test in the setup method.  We put the code that needs to run after the test in the teardown method.
+
+After supplying the path to a directory run "spec ." and RSpec will run all of the specs in the current and subdirectories.
+
+A stub is used to provide cannned answers to methods when testing to help mimic methods being called.
+
+A mock is a more is a more "involved" stub that goes the extra mile by providing the proper responses to return and which arguments to call when testing.
+
+You want to make sure tests fail so you know they are testing importing things within your code.
+
+Exercising code a little bit means to check for the bare minimums (i.e. the test document is a class, the file exists and doesn't contain major errors.)
