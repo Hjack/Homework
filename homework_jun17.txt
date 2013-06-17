@@ -1,0 +1,9 @@
+jQuery is really good at using developers knowledge of CSS to implement changes to the DOM.  jQuery also supports developers ability to add features to the existing library (i.e. plugins). jQuery helps to mitigate incompatibilites between different browsers.  jQuery uses implicit iteration to eliminate the need to loop through items.  jQuery aslo uses chaining to allow for multiple actions on one line.
+
+External javascript files can be included in HTML using the <script> tag.
+
+jQuery should be loaded before any additional customized js scripts because the self created js script may need the jQuery script to function.
+
+$(document).ready() allows the scheduling of functions to be called when the DOM is loaded.  This can happen prior to all of the DOM images being loaded.
+
+An element (for ex. a div) can be selected by $('div').  An id can be selected by $('#id-name').  A class is selected by $('.class-name').
