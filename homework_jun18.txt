@@ -1,0 +1,18 @@
+The short version of $(document).ready() is...
+$(function() {
+	//code
+});
+
+Progressive enhancement is when the style swticher is hidden when JS is unavailable but the page functions through links to alternative versions of the page.
+
+The .bind() method can be used to add a click event to a button.
+
+'this' refers to the DOM element the behaviour was attached to.
+
+Event bubbling is when an event gets sent to the most specific element. After this element has the opportunity to respond to the event, the event gets sent to the next specific element.  It continues "bubbling" up to more general elements.
+
+To stop bubbling you can use the .stopPropagation() method.
+
+To stop an element from taking its default action you can use the .preventDefault() method.
+
+The .hide() and .show() methods hide elements.
