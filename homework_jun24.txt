@@ -1,0 +1,11 @@
+Yes, I think testing JavaScript and Ruby are different in some cases.  For one, I have not come across a clear case of "classes" in JS.  Also, JS primarily runs in the browser so there may be compatibility issues.
+
+Jasmine is a BDD framework for testing.
+
+Jasmine can be run by itself or be part of a Rails project.  The tutorial example illustrated using Jasmine based on a simple HTML template.
+
+I think "describe" corresponds with a function.
+
+You test equality with "expect/toEqual".
+
+"beforeEach" & "afterEach" are equivalent to "setup/teardown".
