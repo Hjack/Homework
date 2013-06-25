@@ -1,0 +1,3 @@
+A test spy allows you to check up pieces of your code.  For example, it will let you check to see if functions have been called.  It seems spies have mock like characteristics because spies help to call functions.
+
+the spyOn fucntion will trigger what it is set up to spy on.  This is similar what a mock does in Ruby.  A mock knows which methods should be called.
