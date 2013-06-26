@@ -1,0 +1,5 @@
+Jasmine-fixture allows you to write spec that is able to interact with the DOM.
+
+The purpose of providing a fixture is it is less likely to have extra elements dumped in HTML. The spec is also somewhat easier to read.
+
+Jasmine-fixture is beneficial because it is able to clean up the elements it adds to the DOM after it compeletes tests.
